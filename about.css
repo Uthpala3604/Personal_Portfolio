@@ -1,0 +1,36 @@
+/* Add these styles for the About page */
+.about {
+    background-color: #ffffff;
+    padding: 2rem;
+  }
+  
+  .about__content {
+    max-width: var(--max-width);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about__title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+  }
+  
+  
+  .about__info {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Add additional styles as needed */
+  
+  /* Media query for smaller screens */
+  @media (max-width: 750px) {
+    .about {
+      padding: 2rem 1rem;
+    }
+  }
+  
