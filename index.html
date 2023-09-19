@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -56,7 +56,7 @@
 
     <!-- About page -->
     
-    <div class="section about">
+    <!-- <div class="section about">
         <div class="section__container about__content">
             <h1 class="about__title">About Me</h1>
             <div class="about__info">
@@ -67,11 +67,11 @@
                 
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- Contact page -->
-    <div class="section contact">
+    <!-- <div class="section contact">
         <div class="section__container contact__content">
             <h1 class="contact__title">Contact Me</h1>
             <p class="contact__subtitle">Feel free to get in touch with me.</p>
@@ -86,4 +86,93 @@
     </div>
 
   </body>
-</html> 
+</html>  --> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- custom css file link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- header section starts -->
+  <header>
+    <div class="user">
+      <img src="me.jpg" alt="">
+      <h3 class="name">Uthpala Pathirana</h3>
+      <p class="post">Front end developer</p>
+
+    </div>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      
+    </nav>
+
+
+  </header>
+  <!-- header section ends -->
+
+  <div id="menu" class="fas fa-bars"></div>
+
+  <!-- home section starts -->
+  <section class="home" id="home">
+    <h3>HI THERE !</h3>
+    <H1>i'M  <span>Uthpala Pathirana</span></H1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Fugiat fuga unde quos omnis eos! Recusandae 
+      dolore vel possimus quod corrupti!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium 
+      consequatur molestiae aperiam maxime unde quis eum, cum aliquam!
+    </p>
+      <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+
+  </section>
+
+  <!-- home section ends -->
+
+  <!-- about section starts -->
+  <section class="about" id="about">
+    <h1 class="heading"> <span>about</span> me </h1>
+    <div class="row">
+      <div class="info">
+        <h3> <span> name : </span> Uthpala Pathirana </h3>
+        <!-- <h3> <span> age: </span> 26 </h3> -->
+        <h3> <span> qualification : </span> CIS </h3>
+        <h3> <span> post : </span> front-end developer </h3>
+        <h3> <span> languages : </span> English, Sinhala </h3>
+        <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i></button></a>
+      </div>
+
+    </div>
+  </section>
+    <!-- about section ends -->
+
+
+
+
+  <!-- jquery cdn link --> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+  <!-- custom js file link -->
+  <script src="script.js"></script>
+
+
+
+</body>
+</html>
