@@ -305,6 +305,18 @@ header .navbar ul li a:hover{
     transform: scale(1.2);
 }
 
+.portfolio .box-container .box .layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff; /* Text color */
+    padding: 10px;
+    width: 100%;
+    transition: 0.3s; /* Add a smooth transition effect */
+    transform: translateY(100%);
+}
+
 .contact .row{
     display: flex;
     align-items: center;
